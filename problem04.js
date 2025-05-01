@@ -2,15 +2,15 @@ function calculateFinalScore(obj) {
   if (typeof obj !== "object") {
     return "Invalid Input";
   }
-  // console.log(obj);
+  console.log(obj);
   let studentTestScore = obj.testScore;
-  // console.log(studentTestScore);
+  console.log(studentTestScore);
 
   let studentSchoolGrade = obj.schoolGrade;
-  //   console.log(studentSchoolGrade);
+    console.log(studentSchoolGrade);
 
   let studentBonusPoint = obj.isFFamily;
-  //   console.log(studentBonusPoint);
+    console.log(studentBonusPoint);
 
   if (obj.isFFamily === true) {
     studentBonusPoint = 20;

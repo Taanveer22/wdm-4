@@ -2,11 +2,11 @@ function waitingTime(waitingTimes, serialNumber) {
   if (Array.isArray(waitingTimes) !== true || typeof serialNumber !== "number") {
     return "Invalid Input";
   }
-  //   console.log(waitingTimes, serialNumber);
+    console.log(waitingTimes, serialNumber);
 
   let totalWaitingTimes = 0;
   for (let element of waitingTimes) {
-    // console.log(element);
+    console.log(element);
     totalWaitingTimes = element + totalWaitingTimes;
   }
   console.log(totalWaitingTimes);

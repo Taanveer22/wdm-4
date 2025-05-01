@@ -1,5 +1,5 @@
 function checkDigitsInName(name) {
-  // console.log(name);
+  console.log(name);
 
   if (typeof name !== "string") {
     return "Invalid Input";
@@ -36,6 +36,7 @@ console.log(checkDigitsInName("elmu3"));
 console.log(checkDigitsInName("name2024"));
 console.log(checkDigitsInName(420));
 console.log(checkDigitsInName([1, 2, 3]));
+console.log(checkDigitsInName(["Raj"]));
 console.log(checkDigitsInName(true));
 console.log(checkDigitsInName("Raj123"));
 console.log(checkDigitsInName('n9yeem'));
